@@ -1,11 +1,20 @@
+import { motion } from "framer-motion"
+import { useState } from "react"
+
+let tabs = [
+  { id: "home", label: "Home" },
+  { id: "about", label: "About" },
+  { id: "work", label: "Work" },
+  { id: "contact", label: "Contact" },
+];
+
 const Navbar = () => {
+  let [activeTab, setActiveTab] = useState(tabs[0].id);
   return (
-     <nav className="p-4 shadow-md">
-      <h1 className="text-xl font-bold">Jeni's Portfolio</h1>
-      <a>Home</a>
-      <a>about</a>
-      <a>work</a>
-      <a>contact</a>
+     <nav className="flex space-x-1">
+      <button>
+        <span />
+      </button>
     </nav>
   )
 }
