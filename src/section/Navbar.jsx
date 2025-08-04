@@ -17,7 +17,7 @@ const Navbar = () => {
          <button
           key={ele.id} 
           onClick={()=>setActiveTab(ele.id)}
-          className={` ${activeTab ===  ele.id ? "bg-blue-500" : "hover:opacity-50"} rounded-full px-3 py-1.5 font-medium text-white  outline-2 outline-sky-400 focus-visible:outline`}
+          className={` ${activeTab ===  ele.id ? "opacity-50" : "hover:bg-blue-500"} rounded-full px-3 py-1.5 font-medium text-zinc  `}
           >
         {ele.label}
          </button>
