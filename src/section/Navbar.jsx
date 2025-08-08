@@ -17,18 +17,23 @@ const Navbar = () => {
          <button
           key={ele.id} 
           onClick={()=>setActiveTab(ele.id)}
-          className={` ${activeTab ===  ele.id ? "hover:bg-pink-500" : "hover:bg-blue-500"} rounded-full px-3 py-1.5 font-medium text-zinc `}
+          className={` ${activeTab ===  ele.id ? "" : "hover:text-amber-700"} relative rounded-full px-3 py-1.5 font-medium text-zinc transition`}
           >
-          {ele.label}
+
+            {activeTab ===  ele.id && (
+              <motion.span 
+              layoutId="active-pill" 
+              className="bg-blue-500 rounded-full absolute inset-0 mix-blend-"
+              style={{borderRadius:9999}}
+              transition={{type:"spring",duration:"0.6"}}/>
+            )}
+
+          <span className="relative z-10">{ele.label}</span>
+
          </button>
       ))}
       </div>
-      <div className="mt-5 flex justify-">
-          <motion.div 
-          layoutId="red-dot"
-          className="h-5 w-5 rounded-full bg-amber-900 " />
-
-      </div>
+      
     </div>
      
   )
