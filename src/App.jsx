@@ -7,7 +7,7 @@ function App() {
  
 
   return (
-    <div className="bg-white text-gray-800">
+    <div className="bg-black text-gray-800">
       <Navbar/>
       <Hero />
       <About/>       
