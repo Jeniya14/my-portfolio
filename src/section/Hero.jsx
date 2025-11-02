@@ -1,7 +1,7 @@
 const Hero = () => {
   return (
      <section className="min-h-screen text-gray-300 flex items-center justify-center px-8 md:px-20">
-      <div className="max-w-5xl w-full grid md:grid-cols-2 gap-12">
+      <div className="max-w-6xl w-full grid md:grid-cols-2 gap-16">
         {/* Left Side */}
         <div className="space-y-6">
           <h1 className="text-5xl md:text-6xl font-extrabold text-white">
@@ -39,6 +39,10 @@ const Hero = () => {
             design with robust engineering. My focus lies at the intersection of
             design and development, building experiences that are beautiful and
             performant.
+          </p>
+          <p>
+            When I’m not coding, I enjoy exploring creative hobbies and learning new
+            tools to improve my workflow.
           </p>
         </div>
       </div>

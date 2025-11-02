@@ -17,12 +17,13 @@ const Navbar = () => {
         opacity :0,
       }));
     }}
-    className="relative mx-auto flex w-fit rounded-full border-2 border-white bg-black p-1"
+    className="relative mx-auto  flex w-fit rounded-full border-2 border-white  p-1"
     >
       <CusLi setPosition={setPosition}>Home</CusLi>
       <CusLi setPosition={setPosition}>About</CusLi>
       <CusLi setPosition={setPosition}>Experience</CusLi>
-      <CusLi setPosition={setPosition}>Copy my Email</CusLi>
+      {/* <CusLi setPosition={setPosition}>Project</CusLi>
+      <CusLi setPosition={setPosition}>Copy my Email</CusLi> */}
 
       <Curser position={position}/>
     </ul>
@@ -56,7 +57,7 @@ const Curser =({position})=>{
     animate={{
       ...position
     }}
-    className="absolute z-0 h-7 rounded-full bg-pink-600 md:h-12"
+    className="absolute z-0 h-7 rounded-full bg-navbtn md:h-12"
     />
   )
 }

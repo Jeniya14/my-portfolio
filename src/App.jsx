@@ -9,7 +9,7 @@ function App() {
  
 
   return (
-    <div className="bg-midnight text-white">
+    <div className="bg-midnight text-white py-2">
       <GlowCurser />
       <Navbar/>
       <Hero />
