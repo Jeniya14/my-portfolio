@@ -1,6 +1,6 @@
 import './App.css'
 import GlowCurser from './components/GlowCurser'
-import About from './section/About'
+import Experience from './section/Experience'
 import Hero from './section/Hero'
 import Navbar from './section/Navbar'
 
@@ -9,11 +9,13 @@ function App() {
  
 
   return (
-    <div className="bg-midnight text-white py-2">
+    <div className="bg-midnight text-white py-4">
       <GlowCurser />
+      <nav className="hidden sm:block">
       <Navbar/>
+      </nav>
       <Hero />
-      <About/>       
+      <Experience/>       
     </div>
   )
 }

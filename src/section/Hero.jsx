@@ -15,6 +15,22 @@ const Hero = () => {
             ReactJS and Tailwind CSS. I love creating interfaces that are both
             visually appealing and user-friendly.
           </p>
+          <div className="flex gap-3 space-x-3 items-center">
+            <button className="bg-transparent hover:bg-navbtn text-white font-semibold hover:text-white py-2 px-4 border border-white hover:border-transparent rounded-full" onClick='https://github.com/Jeniya14'  target='_blank' rel='noreferrer'>
+                    {/* <img src="/assets/instagram.svg" alt="github" className="w-6" /> */}
+                    Copy my mail
+            </button>
+            <a href='https://github.com/Jeniya14'  target='_blank' rel='noreferrer'>
+                    <img src="/assets/github.svg" alt="github" className="w-6" />
+            </a>
+            <a href='https://www.linkedin.com/in/jeniyaselvam/'  target='_blank' rel='noreferrer'>
+                    <img src="/assets/lin.png" alt="Linkedin" className="w-6" />
+            </a>
+             <a href='https://github.com/Jeniya14'  target='_blank' rel='noreferrer'>
+                    <img src="/assets/twitter.svg" alt="github" className="w-6" />
+            </a>
+             
+        </div>
         </div>
 
         {/* Right Side */}
@@ -34,16 +50,8 @@ const Hero = () => {
             When I’m not coding, I enjoy exploring creative hobbies and learning new
             tools to improve my workflow.
           </p>
-          <p>
-            I’m passionate about crafting user interfaces that blend thoughtful
-            design with robust engineering. My focus lies at the intersection of
-            design and development, building experiences that are beautiful and
-            performant.
-          </p>
-          <p>
-            When I’m not coding, I enjoy exploring creative hobbies and learning new
-            tools to improve my workflow.
-          </p>
+      
+          
         </div>
       </div>
     </section>

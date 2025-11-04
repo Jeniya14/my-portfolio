@@ -20,10 +20,10 @@ const Navbar = () => {
     className="relative mx-auto  flex w-fit rounded-full border-2 border-white  p-1"
     >
       <CusLi setPosition={setPosition}>Home</CusLi>
-      <CusLi setPosition={setPosition}>About</CusLi>
+      {/* <CusLi setPosition={setPosition}>About</CusLi> */}
       <CusLi setPosition={setPosition}>Experience</CusLi>
-      {/* <CusLi setPosition={setPosition}>Project</CusLi>
-      <CusLi setPosition={setPosition}>Copy my Email</CusLi> */}
+      <CusLi setPosition={setPosition}>Project</CusLi>
+      {/* <CusLi setPosition={setPosition}>Copy my Email</CusLi> */}
 
       <Curser position={position}/>
     </ul>
