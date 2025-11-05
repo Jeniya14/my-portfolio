@@ -15,20 +15,21 @@ const Hero = () => {
             ReactJS and Tailwind CSS. I love creating interfaces that are both
             visually appealing and user-friendly.
           </p>
-          <div className="flex gap-3 space-x-3 items-center">
-            <button className="bg-transparent hover:bg-navbtn text-white font-semibold hover:text-white py-2 px-4 border border-white hover:border-transparent rounded-full" onClick='https://github.com/Jeniya14'  target='_blank' rel='noreferrer'>
+          <button className="bg-transparent hover:bg-navbtn text-white font-semibold hover:text-white py-2 px-4 border border-white hover:border-transparent rounded-full" href='https://github.com/Jeniya14'  target='_blank' rel='noreferrer'>
                     {/* <img src="/assets/instagram.svg" alt="github" className="w-6" /> */}
                     Copy my mail
             </button>
+          <div className="flex gap-5 items-center ps-3">
+            
             <a href='https://github.com/Jeniya14'  target='_blank' rel='noreferrer'>
                     <img src="/assets/github.svg" alt="github" className="w-6" />
             </a>
             <a href='https://www.linkedin.com/in/jeniyaselvam/'  target='_blank' rel='noreferrer'>
                     <img src="/assets/lin.png" alt="Linkedin" className="w-6" />
             </a>
-             <a href='https://github.com/Jeniya14'  target='_blank' rel='noreferrer'>
+             {/* <a href='https://github.com/Jeniya14'  target='_blank' rel='noreferrer'>
                     <img src="/assets/twitter.svg" alt="github" className="w-6" />
-            </a>
+            </a> */}
              
         </div>
         </div>
