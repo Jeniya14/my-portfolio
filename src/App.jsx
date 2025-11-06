@@ -3,6 +3,7 @@ import GlowCurser from './components/GlowCurser'
 import Experience from './section/Experience'
 import Hero from './section/Hero'
 import Navbar from './section/Navbar'
+import Skill from './section/Skill'
 
 
 function App() {
@@ -15,7 +16,8 @@ function App() {
       <Navbar/>
       </nav>
       <Hero />
-      <Experience/>       
+      <Experience/> 
+      <Skill />      
     </div>
   )
 }
