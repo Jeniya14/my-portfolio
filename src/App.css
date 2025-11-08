@@ -4,7 +4,7 @@
   --color-navbtn: #A40894;
 }
 
-.stock-ticker {
+.marquee-skills {
   font-size: 16px;
   padding-block: 8px;
   overflow: hidden;
@@ -15,7 +15,7 @@
   gap: var(--gap);
 }
 
-.stock-ticker ul {
+.marquee-skills ul {
   list-style: none;
   flex-shrink: 0;
   min-width: 100%;
@@ -27,7 +27,7 @@
   animation: scroll 10s linear infinite; /* faster */
 }
 
-.stock-ticker:hover ul {
+.marquee-skills:hover ul {
   animation-play-state: paused;
 }
 

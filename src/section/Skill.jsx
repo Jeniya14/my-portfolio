@@ -1,6 +1,7 @@
 const skills = [
-  "Figma",
-  "GitHub",
+  "Html",
+  "CSS",
+  "Javascript",
   "Framer Motion",
   "MongoDB",
   "Express",
@@ -8,7 +9,8 @@ const skills = [
   "TypeScript",
   "React",
   "Tailwind CSS",
-  "Next.js",
+  "Three.js",
+  "Material UI",
 ];
 
 export default function Skills() {
@@ -23,7 +25,7 @@ export default function Skills() {
         </p>
 
         {/* ✅ Marquee */}
-        <div className="stock-ticker  rounded-md  ">
+        <div className="marquee-skills  rounded-md  ">
           <ul>
             {skills.map((item, i) => (
               <li key={i} className="px-4 py-1 bg-black rounded-full">
