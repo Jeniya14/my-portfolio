@@ -15,7 +15,7 @@ const skills = [
 
 export default function Skills() {
   return (
-    <section className="w-full py-14 text-white">
+    <section className="w-full py-16 my-8 text-white">
       <div className=" mx-auto ">
 
         {/* ✅ Center headings */}
