@@ -13,13 +13,15 @@ function App() {
   return (
     <div className="bg-midnight text-white py-4">
       <GlowCurser />
-      <nav className="hidden sm:block">
-      <Navbar/>
-      </nav>
-      <Hero />
-      <Experience/> 
-      <Skill />   
-      <Project />   
+      <main className="relative ">
+        <nav className="hidden sm:block">
+        <Navbar/>
+        </nav>
+        <Hero />
+        <Experience/> 
+        <Skill />   
+        <Project />
+      </main>   
     </div>
   )
 }
