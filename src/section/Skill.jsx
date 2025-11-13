@@ -28,7 +28,7 @@ export default function Skills() {
         <div className="marquee-skills  rounded-md  ">
           <ul>
             {skills.map((item, i) => (
-              <li key={i} className="px-4 py-1 bg-black rounded-full">
+              <li key={i} className="px-4 py-1 border border-white rounded-full">
                 {item}
               </li>
             ))}
@@ -37,7 +37,7 @@ export default function Skills() {
           {/* duplicate required for seamless looping */}
           <ul>
             {skills.map((item, i) => (
-              <li key={"copy-" + i} className="px-4 py-1 bg-black rounded-full">
+              <li key={"copy-" + i} className="px-4 py-1 border border-white rounded-full">
                 {item}
               </li>
             ))}
