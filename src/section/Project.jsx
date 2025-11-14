@@ -1,59 +1,91 @@
 const Project = () => {
-  const projectData = [
-  {
-    title: "Gameverse",
-    desc: "Where user can manage their games and see the reviews.",
-  },
-  {
-    title: "Medicare",
-    desc: "Seamless appointment booking with the hospital.",
-  },
-  {
-    title: "FOG",
-    desc: "Buying styling essentials made easy.",
-  },
-  {
-    title: "ToDo",
-    desc: "A todo app showing the power of redux",
-  },
-  {
-    title: "Chat - socket.io",
-    desc: "A real time chat app demo using socket io",
-  },
-];
-
   return (
-    <section className="w-full py-16 px-4">
-      <div className="max-w-6xl mx-auto">
+    <div id="projects" className="min-h-screen text-white">
+  <h1 className="text-3xl sm:text-4xl font-bold px-4 sm:px-10 md:px-20">
+    My Projects
+  </h1>
 
-        {/* Heading */}
-        <h2 className="text-4xl font-bold mb-12 text-center py-6">My Projects</h2>
-
-        {/* Grid Layout */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
-
-          {projectData.map((p, i) => (
-            <div
-              key={i}
-              className="p-6 rounded-2xl border border-white/10 bg-black shadow-lg flex flex-col gap-4"
-            >
-              {/* Arrow button */}
-              <button className="w-9 h-9 flex items-center justify-center rounded-full bg-gray-800 hover:bg-gray-700 transition">
-                →
-              </button>
-
-              {/* Title */}
-              <h3 className="text-xl font-semibold">{p.title}</h3>
-
-              {/* Description */}
-              <p className="text-gray-400">{p.desc}</p>
+  <div className="p-4 sm:p-10 md:p-20">
+    <ul className="grid grid-cols-1 md:grid-cols-12 gap-4 xl:grid-rows-2">
+      
+      {/* 1 */}
+      <li className="min-h-[14rem] list-none md:[grid-area:1/1/2/7] xl:[grid-area:1/1/2/5]">
+        <div className="project-card">
+           <button className="w-9 h-9 flex items-center justify-center rounded-full bg-gray-800 hover:bg-gray-700 transition">
+              →
+            </button>
+            <div>
+              <h3 className="text-xl font-semibold">Gameverse</h3>
+              <p className="text-gray-400 mt-2">
+                Where user can manage their games and see the reviews.
+              </p>
             </div>
-          ))}
-
         </div>
+      </li>
 
-      </div>
-    </section>
+      {/* 2 */}
+      <li className="min-h-[14rem] list-none md:[grid-area:1/7/2/13] xl:[grid-area:2/1/3/5]">
+        <div className="project-card">
+           <button className="w-9 h-9 flex items-center justify-center rounded-full bg-gray-800 hover:bg-gray-700 transition">
+              →
+            </button>
+            <div>
+              <h3 className="text-xl font-semibold">Gameverse</h3>
+              <p className="text-gray-400 mt-2">
+                Where user can manage their games and see the reviews.
+              </p>
+            </div>
+        </div>
+      </li>
+
+      {/* 3 (middle, larger one) */}
+      <li className="min-h-[18rem] list-none md:[grid-area:2/1/3/7] xl:[grid-area:1/5/3/8]">
+        <div className="project-card">
+           <button className="w-9 h-9 flex items-center justify-center rounded-full bg-gray-800 hover:bg-gray-700 transition">
+              →
+            </button>
+            <div>
+              <h3 className="text-xl font-semibold">Gameverse</h3>
+              <p className="text-gray-400 mt-2">
+                Where user can manage their games and see the reviews.
+              </p>
+            </div>
+        </div>
+      </li>
+
+      {/* 4 */}
+      <li className="min-h-[14rem] list-none md:[grid-area:2/7/3/13] xl:[grid-area:1/8/2/13]">
+        <div className="project-card">
+           <button className="w-9 h-9 flex items-center justify-center rounded-full bg-gray-800 hover:bg-gray-700 transition">
+              →
+            </button>
+            <div>
+              <h3 className="text-xl font-semibold">Gameverse</h3>
+              <p className="text-gray-400 mt-2">
+                Where user can manage their games and see the reviews.
+              </p>
+            </div>
+        </div>
+      </li>
+
+      {/* 5 */}
+      <li className="min-h-[14rem] list-none md:[grid-area:3/1/4/13] xl:[grid-area:2/8/3/13]">
+        <div className="project-card">
+           <button className="w-9 h-9 flex items-center justify-center rounded-full bg-gray-800 hover:bg-gray-700 transition">
+              →
+            </button>
+            <div>
+              <h3 className="text-xl font-semibold">Gameverse</h3>
+              <p className="text-gray-400 mt-2">
+                Where user can manage their games and see the reviews.
+              </p>
+            </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+
   )
 }
 

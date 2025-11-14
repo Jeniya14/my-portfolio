@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="bg-midnight text-white py-4">
       <GlowCurser />
-      <main className="relative ">
+      <main className="relative z-10">
         <nav className="hidden sm:block">
         <Navbar/>
         </nav>
