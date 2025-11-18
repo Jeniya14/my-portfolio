@@ -3,17 +3,12 @@
   --color-midnight: #280124;
   --color-navbtn: #A40894;
 }
-.project-card {
-  @apply relative h-full rounded-[1.25rem] border border-white/10 p-3 md:rounded-[1.5rem] cursor-pointer bg-gray-900;
-}
- /* hover:bg-gray-800 transition   hover:border-white */
 
 .marquee-skills {
   font-size: 16px;
   padding-block: 8px;
   overflow: hidden;
   user-select: none;
-
   --gap: 20px;
   display: flex;
   gap: var(--gap);
@@ -28,7 +23,7 @@
   align-items: center;
   gap: var(--gap);
 
-  animation: scroll 10s linear infinite; /* faster */
+  animation: scroll 20s linear infinite; /* faster */
 }
 
 .marquee-skills:hover ul {
@@ -40,3 +35,14 @@
     transform: translateX(calc(-100% - var(--gap)));
   }
 }
+
+/* Project section */
+.project-card {
+  @apply relative h-full rounded-[1.25rem] border border-white/10 p-3 md:rounded-[1.5rem] cursor-pointer bg-gray-900;
+}
+ /* hover:bg-gray-800 transition   hover:border-white */
+
+ .project-skill{
+  @apply flex
+ }
+ 
