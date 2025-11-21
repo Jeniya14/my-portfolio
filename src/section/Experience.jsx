@@ -44,7 +44,7 @@ const Experience = () => {
         Full Stack Web Developement Intern - Brainvalley, Chennai
       </h3>
       <p className="text-gray-300 text-sm mt-1">
-        June 2023 - Dec 2023
+        Sep 2022 - Jan 2023
       </p>
     </div>
 
