@@ -1,4 +1,15 @@
+import { useState } from "react";
 const Hero = () => {
+   const [copied, setCopied] = useState(false);
+   const handleCopy = () => {
+    navigator.clipboard.writeText("yourmail@gmail.com");
+    setCopied(true);
+
+    // reset after 2 seconds
+    setTimeout(() => {
+      setCopied(false);
+    }, 2000);
+  };
   return (
      <section className="min-h-screen text-gray-300 flex items-center justify-center px-8 md:px-20">
       <div className="max-w-6xl w-full grid md:grid-cols-2 gap-16">
@@ -15,9 +26,10 @@ const Hero = () => {
             ReactJS and Tailwind CSS. I love creating interfaces that are both
             visually appealing and user-friendly.
           </p>
-          <button className="bg-transparent hover:bg-navbtn text-white font-semibold hover:text-white py-2 px-4 border border-white hover:border-transparent rounded-full" href='https://github.com/Jeniya14'  target='_blank' rel='noreferrer'>
-                    {/* <img src="/assets/instagram.svg" alt="github" className="w-6" /> */}
-                    Copy my mail
+             <button onClick={handleCopy} className={`font-semibold py-2 px-4 border rounded-full transition-all duration-300 w-[150px] text-center  ${copied 
+          ? "sm:bg-green-600 sm:border-green-600" 
+          : "bg-transparent hover:border-navbtn text-white hover:bg-navbtn"}`}>
+                    {copied ? "Copied!" : "Copy my mail"}
             </button>
           <div className="flex gap-5 items-center ps-3">
             
@@ -36,6 +48,7 @@ const Hero = () => {
 
         {/* Right Side */}
         <div className="space-y-4 text-gray-400 text-lg">
+          <div className="font-medium text-white">About</div>
           <p>
             I’m passionate about crafting user interfaces that blend thoughtful
             design with robust engineering. My focus lies at the intersection of
