@@ -11,22 +11,23 @@ const Navbar = () => {
   });
 
   return (
+    <nav className="sticky top-0 z-50  py-2 hidden sm:block">
     <ul onMouseLeave={()=>{
       setPosition((eve)=>({
         ...eve,
         opacity :0,
       }));
     }}
-    className="relative mx-auto  flex w-fit rounded-full border-2 border-white  p-1"
+    className="relative mx-auto  flex w-fit rounded-full border-2 border-white  bg-black/30 p-1 backdrop-blur"
     >
       <CusLi setPosition={setPosition}>Home</CusLi>
       {/* <CusLi setPosition={setPosition}>About</CusLi> */}
-      <CusLi setPosition={setPosition} >Experience</CusLi>
-      <CusLi setPosition={setPosition}>Project</CusLi>
+      <CusLi setPosition={setPosition} ><a href="#experience">Experience</a></CusLi>
+      <CusLi setPosition={setPosition}><a href="#project">Project</a></CusLi>
      
       <Curser position={position}/>
     </ul>
-     
+    </nav> 
   )
 }
 

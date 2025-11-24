@@ -1,5 +1,6 @@
 import './App.css'
 import GlowCurser from './components/GlowCurser'
+import MobileSectionHeader from './components/MobileSectionHeader'
 import Experience from './section/Experience'
 import Hero from './section/Hero'
 import Navbar from './section/Navbar'
@@ -13,10 +14,12 @@ function App() {
   return (
     <div className="bg-midnight text-white py-4">
       <GlowCurser />
-      <main className="relative z-10">
-        <nav className="hidden sm:block">
+      {/* <MobileSectionHeader /> */}
+      <main className=" z-10">
+
+        {/* <nav className="hidden sm:block"> */}
         <Navbar/>
-        </nav>
+        {/* </nav> */}
         <Hero />
         <Experience/> 
         <Skill />   

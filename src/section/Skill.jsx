@@ -19,7 +19,7 @@ export default function Skills() {
       <div className=" mx-auto ">
 
         <h2 className="text-4xl font-bold text-center mb-3">Skills</h2>
-        <p className="text-gray-400 text-center mb-10">
+        <p  className="text-gray-400 text-center mb-10">
           Technologies and tools I work with.
         </p>
         <div className="marquee-skills  rounded-md  ">
