@@ -22,10 +22,13 @@ const Project = () => {
                   </p>
                   <ul className="project-skill"><li>HTML</li><li>CSS</li><li>Reactjs</li><li>Redux</li></ul>
                 </div>
-                <button className=" ">
+                <a href="https://github.com/Jeniya14/React-food-project" target='_blank' rel='noreferrer'>
+                  <button >
                   <img src="/assets/github.svg" alt="github" className="w-6" />
                   
                 </button>
+                </a>
+                
             </div>
           </li>
 
@@ -43,9 +46,12 @@ const Project = () => {
                   </p>
                   <ul className="project-skill"><li>React native</li></ul>
                 </div>
-                <button >
+                <a href="https://github.com/Jeniya14/React-native-CRM-App" target='_blank' rel='noreferrer'>
+                  <button >
                   <img src="/assets/github.svg" alt="github" className="w-6" />
+                  
                 </button>
+                </a>
             </div>
           </li>
 
@@ -62,9 +68,12 @@ const Project = () => {
                     A full-stack e-commerce application              </p>
                   <ul className="project-skill"><li>Reactjs</li><li>MUI</li><li>Nodejs</li><li>Mongodb</li></ul>                        
                 </div>
-                <button >
+                <a href="https://github.com/Jeniya14/Shopcart-fullstack-project" target='_blank' rel='noreferrer'>
+                  <button >
                   <img src="/assets/github.svg" alt="github" className="w-6" />
+                  
                 </button>
+                </a>
             </div>
           </li>
 
@@ -83,9 +92,12 @@ const Project = () => {
                   <ul className="project-skill"><li>HTML</li><li>CSS</li><li>Flask</li><li>MySql</li></ul>
                   
                 </div>
-                <button >
+                <a href="https://github.com/Jeniya14/Sellyard-flask-Project" target='_blank' rel='noreferrer'>
+                  <button >
                   <img src="/assets/github.svg" alt="github" className="w-6" />
+                  
                 </button>
+                </a>
             </div>
           </li>
 
@@ -103,9 +115,12 @@ const Project = () => {
                     </p>
                   <ul className="project-skill"><li>HTML</li><li>CSS</li><li>Bootstap</li></ul>
                 </div>
-                <button >
+                <a href="https://github.com/Jeniya14/Arsha-business-website" target='_blank' rel='noreferrer'>
+                  <button >
                   <img src="/assets/github.svg" alt="github" className="w-6" />
+                  
                 </button>
+                </a>
             </div>
           </li>
         </ul>
