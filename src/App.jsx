@@ -2,6 +2,7 @@ import './App.css'
 import GlowCurser from './components/GlowCurser'
 import MobileSectionHeader from './components/MobileSectionHeader'
 import Experience from './section/Experience'
+import Footer from './section/Footer'
 import Hero from './section/Hero'
 import Navbar from './section/Navbar'
 import Project from './section/Project'
@@ -12,7 +13,7 @@ function App() {
  
 
   return (
-    <div className="bg-midnight text-white py-4">
+    <div className="bg-midnight text-white">
       <GlowCurser />
       {/* <MobileSectionHeader /> */}
       <main className=" z-10">
@@ -24,6 +25,7 @@ function App() {
         <Experience/> 
         <Skill />   
         <Project />
+        <Footer />
       </main>   
     </div>
   )
