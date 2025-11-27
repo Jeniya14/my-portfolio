@@ -17,14 +17,12 @@ const Hero = () => {
         <div className="space-y-6">
           <h1 className="text-5xl md:text-6xl font-extrabold text-white">
             Jeniya
-          </h1>
+        </h1>
           <h2 className="text-2xl font-medium text-gray-400">
             Frontend Developer
           </h2>
           <p className="text-gray-400 leading-relaxed max-w-md text-lg">
-            I build accessible, pixel-perfect digital experiences for the web using
-            ReactJS and Tailwind CSS. I love creating interfaces that are both
-            visually appealing and user-friendly.
+            Frontend Developer crafting clean, responsive, and user-focused web experiences
           </p>
              <button onClick={handleCopy} className={`font-semibold py-2 px-4 border rounded-full transition-all duration-300 w-[150px] text-center  ${copied 
           ? "sm:bg-green-600 sm:border-green-600" 
@@ -39,32 +37,23 @@ const Hero = () => {
             <a href='https://www.linkedin.com/in/jeniyaselvam/'  target='_blank' rel='noreferrer'>
                     <img src="/assets/lin.png" alt="Linkedin" className="w-6" />
             </a>
-             {/* <a href='https://github.com/Jeniya14'  target='_blank' rel='noreferrer'>
-                    <img src="/assets/twitter.svg" alt="github" className="w-6" />
-            </a> */}
              
         </div>
         </div>
 
         {/* Right Side */}
         <div className="space-y-4 text-gray-400 text-lg">
-          <div className="font-medium text-white">About</div>
+          
           <p>
-            I’m passionate about crafting user interfaces that blend thoughtful
-            design with robust engineering. My focus lies at the intersection of
-            design and development, building experiences that are beautiful and
-            performant.
+            I enjoy transforming ideas into smooth, user-friendly digital experiences. With a solid foundation in HTML, CSS, JavaScript, and React, I build websites that are both functional and aesthetically pleasing. I love working with modern tools like Three.js and 3D web development.
           </p>
           <p>
-            Previously, I’ve developed software for start-ups and digital studios,
-            ensuring every component meets web accessibility standards and best
-            practices.
+            As a perfectionist, I pay attention to the smallest details to ensure everything feels polished and consistent. I’ve developed projects like e-commerce platforms, food delivery apps, and dynamic UI components. I also have freelancing experience in designing and developing
           </p>
           <p>
-            When I’m not coding, I enjoy exploring creative hobbies and learning new
-            tools to improve my workflow.
+            I’m constantly learning and improving, expanding my skills to stay updated in  and Every day, I aim to become a better developer and create work I can be proud of.
           </p>
-      
+            
           
         </div>
       </div>
