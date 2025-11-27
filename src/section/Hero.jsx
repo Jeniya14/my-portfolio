@@ -11,7 +11,7 @@ const Hero = () => {
     }, 2000);
   };
   return (
-     <section className="min-h-screen text-gray-300 flex items-center justify-center px-8 md:px-20">
+     <section className="pt-5 sm:py-30 text-gray-300 flex items-center justify-center px-8 md:px-20 " id="home">
       <div className="max-w-6xl w-full grid md:grid-cols-2 gap-16">
         {/* Left Side */}
         <div className="space-y-6">
@@ -43,7 +43,7 @@ const Hero = () => {
 
         {/* Right Side */}
         <div className="space-y-4 text-gray-400 text-lg">
-          
+          <div className="text-white text-2xl font-bold sm:hidden block"> About me</div>
           <p>
             I enjoy transforming ideas into smooth, user-friendly digital experiences. With a solid foundation in HTML, CSS, JavaScript, and React, I build websites that are both functional and aesthetically pleasing. I love working with modern tools like Three.js and 3D web development.
           </p>
@@ -51,7 +51,7 @@ const Hero = () => {
             As a perfectionist, I pay attention to the smallest details to ensure everything feels polished and consistent. I’ve developed projects like e-commerce platforms, food delivery apps, and dynamic UI components. I also have freelancing experience in designing and developing
           </p>
           <p>
-            I’m constantly learning and improving, expanding my skills to stay updated in  and Every day, I aim to become a better developer and create work I can be proud of.
+            I’m constantly learning and improving, expanding my skills to stay updated in  and <i>Every day, I aim to become a better developer and create work I can be proud of</i>.
           </p>
             
           

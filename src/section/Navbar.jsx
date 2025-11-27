@@ -20,7 +20,7 @@ const Navbar = () => {
     }}
     className="relative mx-auto  flex w-fit rounded-full border-2 border-white  bg-black/30 p-1 backdrop-blur"
     >
-      <CusLi setPosition={setPosition}>Home</CusLi>
+      <CusLi setPosition={setPosition}><a href="#home">Home</a></CusLi>
       {/* <CusLi setPosition={setPosition}>About</CusLi> */}
       <CusLi setPosition={setPosition} ><a href="#experience">Experience</a></CusLi>
       <CusLi setPosition={setPosition}><a href="#project">Project</a></CusLi>
