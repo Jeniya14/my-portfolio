@@ -11,7 +11,7 @@ const Hero = () => {
     }, 2000);
   };
   return (
-     <section className="pt-5 sm:py-30 text-gray-300 flex items-center justify-center px-8 md:px-20 " id="home">
+     <section className="pt-10 sm:py-30 text-gray-300 flex items-center justify-center px-8 md:px-20 " id="home">
       <div className="max-w-6xl w-full grid md:grid-cols-2 gap-16">
         {/* Left Side */}
         <div className="space-y-6">
