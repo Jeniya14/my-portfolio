@@ -18,10 +18,10 @@ const Hero = () => {
           <h1 className="text-5xl md:text-6xl font-extrabold text-white">
             Jeniya
         </h1>
-          <h2 className="text-2xl font-medium text-gray-400">
+          <h2 className="text-2xl font-medium sm:text-gray-400 text-gray-200">
             Frontend Developer
           </h2>
-          <p className="text-gray-400 leading-relaxed max-w-md text-lg">
+          <p className="sm:text-gray-400 text-gray-200  leading-relaxed max-w-md text-lg">
             Frontend Developer crafting clean, responsive, and user-focused web experiences
           </p>
              <button onClick={handleCopy} className={`font-semibold py-2 px-4 border rounded-full transition-all duration-300 w-[150px] text-center  ${copied 
@@ -42,7 +42,7 @@ const Hero = () => {
         </div>
 
         {/* Right Side */}
-        <div className="space-y-4 text-gray-400 text-lg">
+        <div className="space-y-4 sm:text-gray-400 text-gray-200 text-lg">
           <div className="text-white text-2xl font-bold sm:hidden block"> About me</div>
           <p>
             I enjoy transforming ideas into smooth, user-friendly digital experiences. With a solid foundation in HTML, CSS, JavaScript, and React, I build websites that are both functional and aesthetically pleasing. I love working with modern tools like Three.js and 3D web development.

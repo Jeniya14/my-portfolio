@@ -13,7 +13,7 @@ function App() {
  
 
   return (
-    <div className="bg-midnight text-white">
+    <div className="sm:bg-midnight bg-halfnight text-white">
       <GlowCurser />
       {/* <MobileSectionHeader /> */}
       <main className=" z-10">
