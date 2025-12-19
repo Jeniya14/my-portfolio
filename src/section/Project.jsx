@@ -1,8 +1,8 @@
 const Project = () => {
   return (
     <div id="project" className="min-h-screen text-white" >
-    <h1 className="text-3xl sm:text-4xl font-bold px-4 sm:px-10 md:px-20">
-    My Projects
+    <h1 className="text-2xl sm:text-4xl font-bold px-4 sm:px-10 md:px-20">
+    MY PROJECTS
     </h1>
 
       <div className="p-4 sm:p-10 md:px-30">
