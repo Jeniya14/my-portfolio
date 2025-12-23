@@ -54,9 +54,6 @@ const Hero = () => {
             I’m constantly learning and improving, expanding my skills to stay updated in  and <i>Every day, I aim to become a better developer and create work I can be proud of</i>.
           </p>
           </div>
-          
-            
-          
         </div>
       </div>
     </section>

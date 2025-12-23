@@ -18,7 +18,7 @@ export default function Skills() {
     <section className="w-full py-16 my-8 text-white">
       <div className=" mx-auto ">
 
-        <h2 className="text-2xl font-bold text-center mb-3">SKILLS</h2>
+        <h2 className="text-2xl md:text-4xl font-bold text-center mb-3">SKILLS</h2>
         <p  className="sm:text-gray-400 text-gray-200 text-center mb-10">
           Technologies and tools I work with.
         </p>
