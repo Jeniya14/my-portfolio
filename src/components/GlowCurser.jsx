@@ -15,7 +15,7 @@ const GlowCurser = () => {
     },[])
   return (
     <div
-    className='pointer-events-none fixed inset-0 z-0 hidden sm:block'
+    className='pointer-events-none fixed inset-0 z-0 hidden lg:block'
     style={{ background: `radial-gradient(circle 150px at ${position.x}px ${position.y}px, rgba(255,0,230,0.2), transparent 250%)`,
         mixBlendMode: "screen",}}
     ></div>

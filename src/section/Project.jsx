@@ -1,7 +1,15 @@
 const Project = () => {
   return (
-    <div id="project" className="min-h-screen text-white" >
-    <h1 className="text-2xl sm:text-4xl font-bold px-4 sm:px-10 md:px-20">
+    <section id="about" className="relative pt-5 mt-2  max-w-full lg:pt-0 lg:px-0 ">
+      <div className="sticky top-0 z-20 w-screen bg-[rgba(78,4,71,0.7)] backdrop-blur lg:sr-only">
+        <div className="px-6 py-4">
+          <h1 className="text-xl font-bold uppercase tracking-widest text-white">
+            MY PROJECTS
+          </h1>
+        </div>
+      </div>
+        <div id="project" className="min-h-screen text-white" >
+    <h1 className="text-2xl sm:text-4xl font-bold px-4 sm:px-10 md:px-20 hidden lg:block">
     MY PROJECTS
     </h1>
 
@@ -127,6 +135,8 @@ const Project = () => {
       </div>
     </div>
 
+    </section>
+    
   )
 }
 

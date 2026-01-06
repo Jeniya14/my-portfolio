@@ -11,10 +11,10 @@ const Hero = () => {
     }, 2000);
   };
   return (
-     <section className="pt-10 sm:py-30 text-gray-300 flex items-center justify-center px-5 sm:px-8 md:px-20 " id="home">
-      <div className="max-w-6xl w-full grid md:grid-cols-2 gap-16">
+     <section className="pt-10 sm:py-30 text-gray-300 flex items-center justify-center lg:px-20 " id="home">
+      <div className="max-w-6xl w-full grid lg:grid-cols-2 gap-16">
         {/* Left Side */}
-        <div className="space-y-2 ">
+        <div className="space-y-2 px-5">
           <h1 className="text-4xl md:text-6xl font-extrabold text-white">
             Jeniya
           </h1>
@@ -41,20 +41,43 @@ const Hero = () => {
         </div>
 
         {/* Right Side */}
-        <div className="space-y-4 sm:text-gray-400 text-gray-200 ">
-          <div className="text-white text-2xl font-bold sm:hidden block"> ABOUT ME</div>
-          <div  className="text-[17px] sm:text-lg space-y-4">
-            <p >
-            I enjoy transforming ideas into smooth, user-friendly digital experiences. With a solid foundation in HTML, CSS, JavaScript, and React, I build websites that are both functional and aesthetically pleasing. I love working with modern tools like Three.js and 3D web development.
-          </p>
-          <p>
-            As a perfectionist, I pay attention to the smallest details to ensure everything feels polished and consistent. I’ve developed projects like e-commerce platforms, food delivery apps, and dynamic UI components. I also have freelancing experience in designing and developing
-          </p>
-          <p>
-            I’m constantly learning and improving, expanding my skills to stay updated in  and <i>Every day, I aim to become a better developer and create work I can be proud of</i>.
-          </p>
-          </div>
-        </div>
+        <section id="about" className="relative max-w-3xl mx-auto px-6 ">
+  
+  {/* Sticky header (ONLY for About section) */}
+  <div className="sticky top-0 z-20 -mx-6 mb-6 w-screen bg-[rgba(78,4,71,0.7)] px-6 py-4 backdrop-blur lg:sr-only ">
+    <h1 className="text-xl font-bold uppercase tracking-widest lg:hidden text-white">
+      About
+    </h1>
+  </div>  
+
+  {/* About content */}
+  <div className="space-y-6 text-gray-200 sm:text-gray-300">
+    <div className="text-[17px] sm:text-lg space-y-4 leading-relaxed">
+      <p>
+        I enjoy transforming ideas into smooth, user-friendly digital experiences.
+        With a solid foundation in HTML, CSS, JavaScript, and React, I build
+        websites that are both functional and aesthetically pleasing.
+      </p>
+
+      <p>
+        As a perfectionist, I pay attention to the smallest details to ensure
+        everything feels polished and consistent. I’ve developed projects like
+        e-commerce platforms, food delivery apps, and dynamic UI components.
+        I also have freelancing experience in designing and developing.
+      </p>
+
+      <p>
+        I’m constantly learning and improving, expanding my skills —
+        <i className="text-gray-300">
+          {" "}Every day, I aim to become a better developer and create work
+          I can be proud of.
+        </i>
+      </p>
+    </div>
+
+  </div>
+</section>
+
       </div>
     </section>
   )

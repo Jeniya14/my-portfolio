@@ -13,7 +13,7 @@ function App() {
  
 
   return (
-    <div className="sm:bg-midnight bg-halfnight text-white">
+    <div className="lg:bg-midnight bg-halfnight text-white">
       <GlowCurser />
       {/* <MobileSectionHeader /> */}
       <main className=" z-10">
@@ -23,7 +23,7 @@ function App() {
         {/* </nav> */}
         <Hero />
         <Experience/> 
-        <Skill />   
+         
         <Project />
         <Footer />
       </main>   

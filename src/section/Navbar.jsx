@@ -11,7 +11,7 @@ const Navbar = () => {
   });
 
   return (
-    <nav className="sticky top-0 z-50  py-2 hidden sm:block">
+    <nav className="sticky top-0 z-50  py-2 hidden lg:block">
     <ul onMouseLeave={()=>{
       setPosition((eve)=>({
         ...eve,
