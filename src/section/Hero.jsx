@@ -2,7 +2,7 @@ import { useState } from "react";
 const Hero = () => {
    const [copied, setCopied] = useState(false);
    const handleCopy = () => {
-    navigator.clipboard.writeText("yourmail@gmail.com");
+    navigator.clipboard.writeText("jeniyaselvam1432@gmail.com");
     setCopied(true);
 
     // reset after 2 seconds
