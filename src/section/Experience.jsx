@@ -3,6 +3,7 @@ import Skills from "./Skill"
 const Experience = () => {
   return (
     <section id="about" className="relative pt-5 mt-2  max-w-full lg:pt-0 lg:px-0 ">
+      
       <div className="sticky top-0 z-20 w-screen bg-[rgba(78,4,71,0.7)] backdrop-blur lg:sr-only">
         <div className="px-6 py-4">
           <h1 className="text-xl font-bold uppercase tracking-widest text-white">
@@ -10,6 +11,7 @@ const Experience = () => {
           </h1>
         </div>
       </div>
+
         <div className="px-4 lg:py-16 md:px-20 lg:px-32 " id="experience">
         <h2 className="text-2xl md:text-4xl hidden lg:block font-bold">EXPERIENCE</h2>
         {/* <p className="text-gray-300 sm:mt-2">Recent roles</p> */}

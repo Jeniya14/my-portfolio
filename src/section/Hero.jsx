@@ -21,7 +21,7 @@ const Hero = () => {
           <h2 className="text-2xl font-medium sm:text-gray-400 text-white">
             Frontend Developer
           </h2>
-          <p className="sm:text-gray-400 text-gray-200  leading-relaxed max-w-md text-md sm:text-lg py-4">
+          <p className="sm:text-gray-400 text-gray-200  leading-relaxed max-w-md text-[17px] sm:text-lg py-4">
             Frontend Developer crafting clean, responsive, and user-focused web experiences
           </p>
           <div className="flex">
@@ -41,17 +41,19 @@ const Hero = () => {
         </div>
 
         {/* Right Side */}
-        <section id="about" className="relative max-w-3xl mx-auto px-6 ">
+        <section id="about" className="relative max-w-full mx-auto  ">
   
   {/* Sticky header (ONLY for About section) */}
-  <div className="sticky top-0 z-20 -mx-6 mb-6 w-screen bg-[rgba(78,4,71,0.7)] px-6 py-4 backdrop-blur lg:sr-only ">
-    <h1 className="text-xl font-bold uppercase tracking-widest lg:hidden text-white">
-      About
-    </h1>
-  </div>  
+  <div className="sticky top-0 z-20 w-screen bg-[rgba(78,4,71,0.7)] backdrop-blur lg:sr-only">
+        <div className="px-6 py-4">
+          <h1 className="text-xl font-bold uppercase tracking-widest text-white">
+            About
+          </h1>
+        </div>
+      </div>  
 
   {/* About content */}
-  <div className="space-y-6 text-gray-200 sm:text-gray-300">
+  <div className="space-y-6 text-gray-200 sm:text-gray-300 px-5">
     <div className="text-[17px] sm:text-lg space-y-4 leading-relaxed">
       <p>
         I enjoy transforming ideas into smooth, user-friendly digital experiences.
