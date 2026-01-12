@@ -26,7 +26,7 @@ const Experience = () => {
           {/* Dot */}
           <span className="absolute left-3 md:left-5 top-1 w-3 h-3 bg-cyan-400 rounded-full"></span>
 
-          <h3 className="text-xl font-semibold">
+          <h3 className="text-lg font-semibold sm:text-xl">
             Junior Tool Admin - Thrive Tech, Cuddalore
           </h3>
           <p className="text-gray-300 text-sm mt-1">
@@ -39,7 +39,7 @@ const Experience = () => {
           {/* Dot */}
           <span className="absolute left-3 md:left-5 top-1 w-3 h-3 bg-pink-400 rounded-full"></span>
 
-          <h3 className="text-xl font-semibold">
+          <h3 className="text-lg sm:text-xl font-semibold">
             Web Developer - Freelancing, Remote
           </h3>
           <p className="text-gray-300 text-sm mt-1">
@@ -52,7 +52,7 @@ const Experience = () => {
           {/* Dot */}
           <span className="absolute left-3 md:left-5 top-1 w-3 h-3 bg-green-400 rounded-full"></span>
 
-          <h3 className="text-xl font-semibold">
+          <h3 className="text-lg sm:text-xl font-semibold">
             Full Stack Web Developement Intern - Brainvalley, Chennai
           </h3>
           <p className="text-gray-300 text-sm mt-1">
